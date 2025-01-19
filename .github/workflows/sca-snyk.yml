@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Wait for Juice Shop to be ready
-        run: |
-          echo "Waiting for Juice Shop to be available..."
+      #- name: Wait for Juice Shop to be ready
+      #  run: |
+         # echo "Waiting for Juice Shop to be available..."
           #until curl --silent --fail http://localhost:3000; do
-            echo "Waiting for Juice Shop..."
-            sleep 5
-          done
-          echo "Juice Shop is ready!"
+       #     echo "Waiting for Juice Shop..."
+        #    sleep 5
+         # done
+          #echo "Juice Shop is ready!"
     
       # Step to check out the code
       - name: Checkout code
