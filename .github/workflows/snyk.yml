@@ -1,6 +1,6 @@
 name: Snyk Security Scan
 
-on:
+#on:
   push:
   pull_request:
     branches:
